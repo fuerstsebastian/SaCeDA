@@ -1,50 +1,482 @@
 {
   "projects": [
     {
-      "id": "arc3d",
+      "id": "celtic-gold-followup",
       "title": {
-        "en": "ARC3D",
-        "de": "ARC3D"
+        "en": "Follow-up to the Celtic Gold Project",
+        "de": "Nachfolgeprojekt Celtic Gold"
       },
       "team": [
         {
-          "name": "Sascha Schmitz",
-          "url": "https://www.uni-saarland.de/..."
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
         }
       ],
       "summary": {
-        "en": "Brief project description in English...",
-        "de": "Kurze Projektbeschreibung auf Deutsch..."
+        "en": "The completed DFG- and ANR-funded project “Celtic Gold” (2017–2023; led by Barbara Armbruster and Roland Schwab) established a systematic corpus of La Tène gold finds and delivered new archaeometric evidence. Follow-up research focuses on selected find groups—such as the gold foils from the elite grave of Schwarzenbach—and aims to synthesize the results using digital approaches including Social Network Analysis, quantitative statistics, and GIS-based analyses.",
+        "de": "Das abgeschlossene, von DFG und ANR geförderte Projekt „Celtic Gold“ (2017–2023; Leitung Barbara Armbruster und Roland Schwab) schuf einen systematischen Korpus latènezeitlicher Goldfunde und lieferte neue archäometrische Befunde. Die Folgeforschungen fokussieren sich auf ausgewählte Fundgruppen – etwa die Goldbleche aus dem Elitengrab von Schwarzenbach – und streben eine Synthese der Ergebnisse an. Hierbei kommen digitale Methoden wie Soziale Netzwerkanalyse und quantitative statistische Verfahren und GIS-Auswertungen zum Einsatz."
       },
       "methods": [
-        "3D Modelling & Reconstruction",
-        "Immersive Technologies (VR/AR)",
-        "Research Data Management (RDM)"
+        "DataAcquisition",
+        "ObjectAndMaterial",
+        "ComputationalArchaeology",
+        "QuantitativeAnalysisAndStatistics",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories",
+        "NetworkAnalysisSNA"
       ],
       "description": {
-        "en": "<p>Full project description in English...</p><p>Multiple paragraphs supported.</p>",
-        "de": "<p>Vollständige Projektbeschreibung auf Deutsch...</p><p>Mehrere Absätze werden unterstützt.</p>"
+        "en": "<p>The DFG- and ANR-funded Franco-German research project “Celtic Gold” (2017–2023; led by PD Dr Barbara Armbruster, CNRS Toulouse, and Prof. Dr Roland Schwab, LEIZA Mainz) has been completed. It established a systematic corpus of La Tène gold finds and provided key archaeometric and archaeological-technological foundations.</p><p>The follow-up research presented here builds directly on these results and is being carried out in close collaboration and with the consent of the former project leads. Its aim is to bring together the different strands developed within the project—archaeometric analytical results, technological observations, typological classifications, and contextual information—and to integrate them into an overarching synthesis.</p><p>Accordingly, the focus lies on digital analytical approaches that reveal patterns across regions, find contexts, and datasets. Alongside Social Network Analysis (e.g., to reconstruct possible workshop circles, communication axes, and pathways of transfer), the project applies quantitative and multivariate methods such as PCA, Correspondence Analysis, clustering techniques, and—depending on the research question—machine-learning-supported classification and exploratory workflows. In addition, GIS-based analyses are used to examine spatial distributions, connectivity, and landscape-related factors in a systematic manner.</p><p>A current emphasis is placed on selected assemblages such as the gold foils from the Iron Age elite grave of Schwarzenbach (district of St. Wendel). Such case studies serve as anchor points to consolidate evidence, test hypotheses, and ultimately integrate the results of “Celtic Gold” into a coherent, data-driven interpretive framework.</p>",
+        "de": "<p>Das von DFG und ANR geförderte deutsch-französische Forschungsprojekt „Celtic Gold“ (2017–2023; Leitung PD Dr. Barbara Armbruster, CNRS Toulouse, und Prof. Dr. Roland Schwab, LEIZA Mainz) ist abgeschlossen und hat einen systematischen Korpus latènezeitlicher Goldfunde sowie zentrale archäometrische und archäologisch-technologische Grundlagen erarbeitet.</p><p>Die hier vorgestellten Nachfolgeforschungen knüpfen daran an und werden in Zusammenarbeit und mit dem Einverständnis der damaligen Projektleitungen fortgeführt. Ziel ist es, die im Projekt entstandenen „Stränge“ – archäometrische Analysedaten, technologische Beobachtungen, typologische Einordnungen und Kontexte – methodisch miteinander zu verbinden und in eine übergreifende Synthese zu überführen.</p><p>Im Mittelpunkt stehen daher digitale Auswertungsansätze, die Muster über Regionen, Fundkontexte und Objektgruppen hinweg sichtbar machen: Neben Sozialer Netzwerkanalyse (z. B. zur Rekonstruktion möglicher Werkstattkreise, Kommunikationsachsen und Transferbeziehungen) kommen quantitative und multivariate Verfahren wie PCA, Korrespondenzanalyse, Clustering sowie – je nach Fragestellung – Machine-Learning-gestützte Klassifikations- und Explorationsmethoden zum Einsatz. Ergänzend werden GIS-gestützte Analysen genutzt, um räumliche Verteilungen, Konnektivitäten und landschaftsbezogene Einflussfaktoren systematisch zu prüfen.</p><p>Ein aktueller Schwerpunkt liegt auf ausgewählten Fundgruppen wie den Goldblechen aus dem eisenzeitlichen Elitengrab von Schwarzenbach (Lkr. St. Wendel). Solche Fallstudien dienen als Ankerpunkte, um Befunde zu verdichten, Hypothesen zu prüfen und schließlich die Ergebnisse aus „Celtic Gold“ in einem konsistenten, datenbasierten Interpretationsrahmen zusammenzuführen.</p>"
       },
       "images": [
-        "images/projects/arc3d/image-01.jpg",
-        "images/projects/arc3d/image-02.jpg",
-        "images/projects/arc3d/image-03.jpg"
+        "images/projects/celtic-gold-followup/image-01.jpg",
+        "images/projects/celtic-gold-followup/image-02.jpg"
       ],
       "partners": {
-        "en": "Partner Organization 1, Partner Organization 2, Partner Organization 3",
-        "de": "Partnerorganisation 1, Partnerorganisation 2, Partnerorganisation 3"
+        "en": "PD Dr. Barbara Armbruster / CNRS – Univ. Toulouse (Project Lead, archaeological-technological analyses, photography); Prof. Dr. Roland Schwab / LEIZA Mainz (Project Lead, archaeometry, conservation issues). Partners and former project participants: Maryse Blet-Lemarquand / CNRS – CEB-IRAMAT, Orléans; Nicole Lockhoff / Univ. Göttingen; Prof. Dr. Pierre-Yves Milcent / Univ. Toulouse; Dr. Sylvia Nieto-Pelletier / CNRS – IRAMAT, Orléans; Dr. Marilou Nordez / CNRS, Toulouse; Dr. Laurent Olivier / MAN, Saint-Germain-en-Laye; Dr. habil. Martin Schönfelder / LEIZA, Mainz; Prof. Dr. em. Susanne Sievers / Univ. Frankfurt; Dr. Barbara Niemeyer / Antikensammlung Berlin.",
+        "de": "PD Dr. Barbara Armbruster / CNRS – Univ. Toulouse (Projektleitung, archäologisch-technologische Analysen, Fotografie); Prof. Dr. Roland Schwab / LEIZA Mainz (Projektleitung, Archäometrie, Restaurierungsfragen). Partner und ehemalige Projektbeteiligte: Maryse Blet-Lemarquand / CNRS – CEB-IRAMAT, Orléans; Nicole Lockhoff / Univ. Göttingen; Prof. Dr. Pierre-Yves Milcent / Univ. Toulouse; Dr. Sylvia Nieto-Pelletier / CNRS – IRAMAT, Orléans; Dr. Marilou Nordez / CNRS, Toulouse; Dr. Laurent Olivier / MAN, Saint-Germain-en-Laye; Dr. habil. Martin Schönfelder / LEIZA, Mainz; Prof. Dr. em. Susanne Sievers / Univ. Frankfurt; Dr. Barbara Niemeyer / Antikensammlung Berlin."
       },
       "publications": {
         "en": [
-          "Author, A. (2023). <em>Title of Publication</em>. Publisher.",
-          "Author, B. & Author, C. (2022). 'Article Title'. <em>Journal Name</em>, 12(3), pp. 45-67."
+          "S. Fürst/M. Schönfelder/B. Armbruster, Neues zum sog. Trinkhornbeschlag von Bad Dürkheim. Zu Goldblecharbeiten des Frühlatènezeit. Germania 99/3, 2022, 57–106.",
+          "S. Fürst/M. Schönfelder/N. Lockhoff, Goldobjekte und Goldgruppen. Untersuchungen und Analysen zum latènezeitlichen Goldfingerring von Nackenheim, Lkr. Mainz-Bingen. Prähist. Zeitschr. 97,1, 2022, 220–238.",
+          "S. Fürst/N. Lockhoff/B. Armbruster/M. Schönfelder/R. Schwab, Goldohrringe revisited: Forschungen zur einer besonderen eisenzeitlichen Fundgruppe. Neues zu kleinen frühlatènezeitlichen Goldringen aus Hessen. hessenARCHÄOLOGIE 2020 (2021) 115–119.",
+          "B. Armbruster/M. Nordez/M. Blet-Lemarquand/S. Fürst/N. Lockhoff/P.-Y.Milcent/S. Nieto-Pelletier/M. Schönfelder/R. Schwab, Celtic gold torcs – An interdisciplinary and diachronic perspective. In: B. Török/A. Giumlia-Mair (Hrsg.), Proceedings of the 5th International Conference “Archaeometallurgy in Europe” 19-21 June 2019, Miskolc, Hungary. Monogr. Instrumentum 73 (Drémil-Lafage 2021) 417–432.",
+          "P.-Y. Milcent/M. Nordez/B. Armbruster/R. Schwab/M. Blet-Lemarquand/S. Fürst/N. Lockhoff/S. NietoPelletier/L. Olivier/M. Schönfelder/S. Sievers, Le projet franco-allemand „Celtic Gold“: présentationet premiers résultats. Bull. AFEAF 37, 2019, 21-24.",
+          "In Vorbereitung: R. Schwab/S. Fürst/M. Blet-Lemarquand/M. Schönfelder/B. Armbruster (Hrsg.), Celtic Gold. Society – Technology – Archaeometry. Proceedings of the International Congress held in Mainz, 12–14 May 2022 (Rahden/Westf.).",
+          "In Vorbereitung: B. Niemeyer/B. Armbruster/S. Fürst/R. Schwab, Keltisches Gold in Berlin. Neue Untersuchungen an den Funden aus Schwarzenbach und Dörth-Waldgallscheid. Jahrb. Berliner Museen, Beih. (Berlin [in Vorb.])."
         ],
         "de": [
-          "Autor, A. (2023). <em>Titel der Publikation</em>. Verlag.",
-          "Autor, B. & Autor, C. (2022). 'Artikeltitel'. <em>Zeitschriftenname</em>, 12(3), S. 45-67."
+          "S. Fürst/M. Schönfelder/B. Armbruster, Neues zum sog. Trinkhornbeschlag von Bad Dürkheim. Zu Goldblecharbeiten des Frühlatènezeit. Germania 99/3, 2022, 57–106.",
+          "S. Fürst/M. Schönfelder/N. Lockhoff, Goldobjekte und Goldgruppen. Untersuchungen und Analysen zum latènezeitlichen Goldfingerring von Nackenheim, Lkr. Mainz-Bingen. Prähist. Zeitschr. 97,1, 2022, 220–238.",
+          "S. Fürst/N. Lockhoff/B. Armbruster/M. Schönfelder/R. Schwab, Goldohrringe revisited: Forschungen zur einer besonderen eisenzeitlichen Fundgruppe. Neues zu kleinen frühlatènezeitlichen Goldringen aus Hessen. hessenARCHÄOLOGIE 2020 (2021) 115–119.",
+          "B. Armbruster/M. Nordez/M. Blet-Lemarquand/S. Fürst/N. Lockhoff/P.-Y.Milcent/S. Nieto-Pelletier/M. Schönfelder/R. Schwab, Celtic gold torcs – An interdisciplinary and diachronic perspective. In: B. Török/A. Giumlia-Mair (Hrsg.), Proceedings of the 5th International Conference “Archaeometallurgy in Europe” 19-21 June 2019, Miskolc, Hungary. Monogr. Instrumentum 73 (Drémil-Lafage 2021) 417–432.",
+          "P.-Y. Milcent/M. Nordez/B. Armbruster/R. Schwab/M. Blet-Lemarquand/S. Fürst/N. Lockhoff/S. NietoPelletier/L. Olivier/M. Schönfelder/S. Sievers, Le projet franco-allemand „Celtic Gold“: présentationet premiers résultats. Bull. AFEAF 37, 2019, 21-24.",
+          "In Vorbereitung: R. Schwab/S. Fürst/M. Blet-Lemarquand/M. Schönfelder/B. Armbruster (Hrsg.), Celtic Gold. Society – Technology – Archaeometry. Proceedings of the International Congress held in Mainz, 12–14 May 2022 (Rahden/Westf.).",
+          "In Vorbereitung: B. Niemeyer/B. Armbruster/S. Fürst/R. Schwab, Keltisches Gold in Berlin. Neue Untersuchungen an den Funden aus Schwarzenbach und Dörth-Waldgallscheid. Jahrb. Berliner Museen, Beih. (Berlin [in Vorb.])."
         ]
       }
     },
+
+    {
+      "id": "coraltrade",
+      "title": {
+        "en": "Coral Trade Project",
+        "de": "Coral Trade Project"
+      },
+      "team": [
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        }
+      ],
+      "summary": {
+        "en": "The Coral Trade Project investigates Mediterranean red coral (Corallium rubrum) as a key material for reconstructing Iron Age trade networks, social structures, and cultural contacts (7th–3rd century BC). It focuses on secure material identification, large-scale mapping of find landscapes, and modelling trade routes and trading hubs between the western Mediterranean and Central Europe, combining microscopy, portable Raman/XRF, GIS, an integrated database, and network analysis.",
+        "de": "Das Coral Trade Project untersucht mediterrane Edelkorallen (Corallium rubrum) als Schlüsselmaterial zur Rekonstruktion eisenzeitlicher Handelsnetzwerke, Sozialstrukturen und Kulturkontakte (7.–3. Jh. v. Chr.). Im Fokus stehen sichere Materialidentifikation, großräumige Kartierung der Fundlandschaften sowie die Modellierung von Handelswegen und Trading Hubs zwischen Westmittelmeer und Mitteleuropa – gestützt auf Mikroskopie, mobile Raman/RFA, GIS, Datenbank und Netzwerkanalysen."
+      },
+      "methods": [
+        "DataAcquisition",
+        "ObjectAndMaterial",
+        "MaterialAnalysis",
+        "ComputationalArchaeology",
+        "SpatialAnalysisGIS",
+        "VisibilityAndPathAnalysis",
+        "ProximityAndDensityAnalysis",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories",
+        "NetworkAnalysisSNA"
+      ],
+      "description": {
+        "en": "<p>Since 2010, the Coral Trade Project, led by Sebastian Fürst, M.A., has investigated Iron Age coral exchange between Central Europe and the western Mediterranean. Owing to its frequent use, wide distribution, and presence across different social strata (not only elites), this long underappreciated category of finds is well suited to reconstructing communication networks and social structures.</p><p>Because ancient coral can lose colour and surface features through ageing, identifications were often uncertain or incorrect. The project therefore developed a multi-stage, non-destructive protocol: structural characteristics are first documented photographically and microscopically, followed by Raman spectroscopic analyses that clearly distinguish coral from other biominerals (e.g., shells, snails, bone). X-ray fluorescence (XRF) is used to corroborate critical cases.</p><p>A finds database of more than 4,000 objects was created, integrating archaeological information on context, chronology and object groups with all scientific analytical data. Analyses were carried out in numerous major collections, including the Musée d’Archéologie Nationale (Saint-Germain-en-Laye), the Louvre’s C2RMF, the Landesmuseum Württemberg (Stuttgart), the Landesmuseum Baden (Karlsruhe) and the Keltenwelt at the Glauberg. This enabled several hundred objects to be securely identified for the first time or earlier misinterpretations to be corrected.</p><p>GIS-based modelling of regional clusters and the reconstruction of distribution routes, incorporating Social Network Analysis, provide a far more differentiated, data-driven picture of Iron Age communication axes and local distribution patterns than classical models. Find densities and spatial patterns point to complex systems linking Mediterranean coastal regions, transit zones and consumption centres, closely tied to the social dynamics of the Hallstatt and La Tène periods. The project addresses key questions about changing routes over time, access to exotic goods by different social groups, and the relationship between Mediterranean contact zones and Central European central places.</p>",
+        "de": "<p>Seit 2010 untersucht das Coral Trade Project unter der Leitung von Sebastian Fürst M.A. den eisenzeitlichen Korallenhandel zwischen Zentraleuropa und dem westmediterranen Raum. Aufgrund ihrer häufigen Verwendung, weiträumigen Verbreitung und Nutzung in unterschiedlichen Gesellschaftsschichten (auch jenseits der Eliten) eignet sich diese bislang kaum beachtete Fundgattung besonders zur Rekonstruktion von Kommunikationsnetzwerken und Sozialstrukturen.</p><p>Da antike Korallen aufgrund von Alterungsprozessen ihre Farbe und Oberflächenstruktur verlieren können, war ihre Identifikation vielfach unsicher oder fehlerhaft. Im Projekt wurde daher ein mehrstufiges, zerstörungsfreies Analyseprotokoll entwickelt: Zunächst werden Strukturmerkmale fotografisch und mikroskopisch dokumentiert, anschließend erfolgen Raman-spektroskopische Analysen zur eindeutigen Abgrenzung von anderen Biomineralen (z. B. Muscheln, Schnecken, Knochen). Kritische Fälle werden durch ergänzende Röntgenfluoreszenzanalyse abgesichert.</p><p>Im Zuge des Projekts entstand eine Funddatenbank mit über 4000 Objekten, die Angaben zu Kontext, Chronologie und Objektgruppen sowie ggf. vorhandene naturwissenschaftliche Analysedaten enthält. Untersuchungen wurden in zahlreichen Sammlungen durchgeführt, u. a. im Musée d’Archéologie Nationale (Saint-Germain-en-Laye), im C2RMF des Louvre, im Landesmuseum Württemberg (Stuttgart), im Landesmuseum Baden (Karlsruhe) und in der Keltenwelt am Glauberg. Dadurch konnten mehrere hundert Objekte erstmals sicher identifiziert oder frühere Fehlinterpretationen korrigiert werden.</p><p>GIS-gestützte Modellierungen regionaler Cluster sowie die Rekonstruktion von Verbreitungsrouten unter Einbeziehung sozialer Netzwerkanalysen liefern ein deutlich differenzierteres, datenbasiertes Bild eisenzeitlicher Kommunikationsachsen und lokaler Distributionsmuster als klassische Modelle. Funddichten und räumliche Muster verweisen auf komplexe Systeme aus mediterranen Küstenregionen, Transitgebieten und Konsumzentren, deren Entwicklung eng mit der sozialen Dynamik der Hallstatt- und Latènezeit verknüpft ist. So adressiert das Projekt zentrale Fragen nach dem Wandel von Handelswegen, dem Zugang verschiedener sozialer Gruppen zu exotischen Gütern und dem Verhältnis mediterraner Kontaktzonen zu mitteleuropäischen Zentralorten.</p>"
+      },
+      "images": [
+        "images/projects/coraltrade/image-01.jpg",
+        "images/projects/coraltrade/image-02.jpg",
+        "images/projects/coraltrade/image-03.jpg"
+      ],
+      "partners": {
+        "en": "Dr. habil. Ina Reiche (CNRS – C2RMF, Paris), PD Dr. Ludovic Bellot-Gurlet (Univ. Sorbonne, Paris), Dr. Katharina Müller (CNRS / Soleil Synchrotron), Dr. Céline Paris (Univ. Sorbonne, Paris).",
+        "de": "Dr. habil. Ina Reiche (CNRS – C2RMF, Paris), PD Dr. Ludovic Bellot-Gurlet (Univ. Sorbonne, Paris), Dr. Katharina Müller (CNRS / Soleil Synchrotron), Dr. Céline Paris (Univ. Sorbonne, Paris)."
+      },
+      "publications": {
+        "en": [
+          "S. Fürst/I. Reiche/K. Müller/L. Bellot-Gurlet/C. Paris, Rot oder weiß? – Analyse mutmaßlicher Korallen vom Glauberg, Wetteraukreis. Jahrb. hessenARCHÄOLOGIE 2015 (2016) 45–49.",
+          "S. Fürst/K. Müller/L. Gianni/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare/I. Reiche, Raman Investigations to identify Corallium Rubrum in Iron Age Jewelry and Ornaments. Minerals 6, 2016, 56–78.",
+          "K. Müller/S. Fürst/I. Reiche, Archäometrische Studie an Korallen und Mollusken: Ein Beitrag zur Rekonstruktion eisenzeitlicher Objekte und deren Handelsrouten. In: Archäometrie und Denkmalpflege 2016. Jahrestagung an der Georg-August-Universität Göttingen 28. September – 01. Oktober 2016. Metalla Sonderheft 8 (Bochum 2016).",
+          "S. Fürst, Korallen am Übergang zur Frühlatènezeit. Zum wissenschaftlichen Potenzial eines problematischen Schmuckmaterials. In: S. Hornung (Hrsg.), Produktion – Distribution – Ökonomie. Siedlungs- und Wirtschaftsmuster der Latènezeit. Akten des internationalen Kolloquiums in Otzenhausen, 28.-30. Oktober 2011. Universitätsforschungen zur prähistorischen Archäologie 258 (Bonn 2014) 41–66.",
+          "S. Fürst/K. Müller/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare/I. Reiche, Neue Identifizierungsstrategie eisenzeitlicher Korallen anhand optischer und Raman-spektroskopischer Charakteristiken. Berliner Beiträge zur Archäometrie, Kunsttechnologie und Konservierungswissenschaft 22, 2014, 25–35.",
+          "S. Fürst/I. Reiche/K. Müller/M. Gay/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare, Von rot zu bunt? Die außergewöhnliche Verzierung einer frühlatènezeitlichen Eisenfibel aus Ilvesheim „Weingärten“ (Rhein-Neckar-Kreis). In: A. Hauptmann/O. Mecking/M. Prange (Hrsg.), Archäometrie und Denkmalpflege 2013. Jahrestagung an der Bauhaus-Universität Weimar, 25.-28. September 2013. Metalla Sonderheft 6 (Bochum 2013) 236–240.",
+          "Dissertationsprojekt: S. Fürst, „Korallen in der frühen Eisenzeit. Frühe innereuropäische Kulturkontakte und Handelsbeziehungen in der Zone nordwestlich der Alpen“ (derzeit rund 1200 Seiten).",
+          "Magisterarbeit: S. Fürst, Die südwestdeutschen Korallenfunde der Hallstatt- und Frühlatènezeit in Spiegel Raman-spektroskopischer Analysen [unpubl. Magisterarbeit] (Mainz 2010)."
+        ],
+        "de": [
+          "S. Fürst/I. Reiche/K. Müller/L. Bellot-Gurlet/C. Paris, Rot oder weiß? – Analyse mutmaßlicher Korallen vom Glauberg, Wetteraukreis. Jahrb. hessenARCHÄOLOGIE 2015 (2016) 45–49.",
+          "S. Fürst/K. Müller/L. Gianni/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare/I. Reiche, Raman Investigations to identify Corallium Rubrum in Iron Age Jewelry and Ornaments. Minerals 6, 2016, 56–78.",
+          "K. Müller/S. Fürst/I. Reiche, Archäometrische Studie an Korallen und Mollusken: Ein Beitrag zur Rekonstruktion eisenzeitlicher Objekte und deren Handelsrouten. In: Archäometrie und Denkmalpflege 2016. Jahrestagung an der Georg-August-Universität Göttingen 28. September – 01. Oktober 2016. Metalla Sonderheft 8 (Bochum 2016).",
+          "S. Fürst, Korallen am Übergang zur Frühlatènezeit. Zum wissenschaftlichen Potenzial eines problematischen Schmuckmaterials. In: S. Hornung (Hrsg.), Produktion – Distribution – Ökonomie. Siedlungs- und Wirtschaftsmuster der Latènezeit. Akten des internationalen Kolloquiums in Otzenhausen, 28.-30. Oktober 2011. Universitätsforschungen zur prähistorischen Archäologie 258 (Bonn 2014) 41–66.",
+          "S. Fürst/K. Müller/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare/I. Reiche, Neue Identifizierungsstrategie eisenzeitlicher Korallen anhand optischer und Raman-spektroskopischer Charakteristiken. Berliner Beiträge zur Archäometrie, Kunsttechnologie und Konservierungswissenschaft 22, 2014, 25–35.",
+          "S. Fürst/I. Reiche/K. Müller/M. Gay/C. Paris/L. Bellot-Gurlet/Ch. F. E. Pare, Von rot zu bunt? Die außergewöhnliche Verzierung einer frühlatènezeitlichen Eisenfibel aus Ilvesheim „Weingärten“ (Rhein-Neckar-Kreis). In: A. Hauptmann/O. Mecking/M. Prange (Hrsg.), Archäometrie und Denkmalpflege 2013. Jahrestagung an der Bauhaus-Universität Weimar, 25.-28. September 2013. Metalla Sonderheft 6 (Bochum 2013) 236–240.",
+          "Dissertationsprojekt: S. Fürst, „Korallen in der frühen Eisenzeit. Frühe innereuropäische Kulturkontakte und Handelsbeziehungen in der Zone nordwestlich der Alpen“ (derzeit rund 1200 Seiten).",
+          "Magisterarbeit: S. Fürst, Die südwestdeutschen Korallenfunde der Hallstatt- und Frühlatènezeit in Spiegel Raman-spektroskopischer Analysen [unpubl. Magisterarbeit] (Mainz 2010)."
+        ]
+      }
+    },
+
+    {
+      "id": "duensberg-oppidum-roman-presence",
+      "title": {
+        "en": "The Oppidum on the Dünsberg and the Beginnings of Roman Presence in Germania",
+        "de": "Das Oppidum auf dem Dünsberg und die Anfänge der römischen Präsenz in Germanien"
+      },
+      "team": [
+        {
+          "name": "Sabine Hornung",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/univ-prof-dr-sabine-hornung.html"
+        },
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        },
+        {
+          "name": "Nicolas Nunold",
+          "url": ""
+        }
+      ],
+      "summary": {
+        "en": "A database-driven project on the Late La Tène oppidum of the Ubii: large brooch datasets and other finds are recorded and analysed typo-chronologically using Network Analysis (SNA), quantitative statistics, and GIS. The aim is to clarify settlement development and assess evidence for Roman military presence; Bayesian modelling of dating evidence is planned.",
+        "de": "Datenbankgestütztes Projekt zum spätlatènezeitlichen Oppidum der Ubier: Umfangreiche Fibeldatensätze und weitere Funde werden erfasst und typochronologisch mit Hilfe von Netzwerkanalyse (SNA), quantitativer Statistik und GIS ausgewertet. Ziel ist die Klärung der Besiedlungsentwicklung und die Einordnung möglicher römischer Militärpräsenz; ein Datierungsprogramm mittels Bayesian Modelling ist vorgesehen."
+      },
+      "methods": [
+        "DataAcquisition",
+        "3DDigitizationObject",
+        "ComputationalArchaeology",
+        "SpatialAnalysisGIS",
+        "QuantitativeAnalysisAndStatistics",
+        "BayesianModelling",
+        "NetworkAnalysisSNA",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories"
+      ],
+      "description": {
+        "en": "<p>The oppidum on the Dünsberg (District of Giessen) is regarded as the central place of the Late Celtic Ubii, yet dating and settlement development remain unclear. Recent detector surveys recovered broad iron-find assemblages, including over 500 brooches that are largely regional forms lacking detailed typological differentiation.</p><p>Within the framework of a bachelor’s thesis, formal attributes are captured in a dedicated database. Network Analysis (SNA) is then used to propose a classification for previously undescribed specimens and to identify formal dependencies and developmental lines. GIS-based distribution analysis follows, alongside planned expansion to earlier finds (3rd/2nd c. BC) and additional object groups.</p><p>Published indications of Roman military presence are being digitised and integrated to support an overall interpretation, potentially contributing archaeological perspectives on conflict episodes around Rhine crossings under Caesar, Agrippa, or Augustus. A Bayesian modelling programme is planned as part of the dating strategy.</p>",
+        "de": "<p>Das Oppidum auf dem Dünsberg (Lkr. Gießen) gilt als Hauptort der spätkeltischen Ubier; Datierung, Befestigungsentwicklung und Besiedlungsgeschichte sind jedoch bislang ungeklärt. Detektorprospektionen der hessenArchäologie erbrachten ein breites Spektrum an Eisenfunden, darunter mehr als 500 Fibeln, die überwiegend Regionalformen ohne bislang ausreichende typologische Differenzierung darstellen.</p><p>Im Rahmen einer Bachelorarbeit werden die formalen Merkmale in einer Projektdatenbank erfasst. Anschließend wird mittels Netzwerkanalyse (SNA) eine Gliederung insbesondere typologisch noch nicht näher beschriebener Stücke entwickelt, um formale Abhängigkeiten und Entwicklungslinien zu isolieren. Es schließen GIS-gestützte Verbreitungsanalysen sowie die Erweiterung des Korpus (u. a. 3./2. Jh. v. Chr.) und weiterer Fundgattungen an.</p><p>Zudem werden Hinweise auf eine römische Militärpräsenz durch Digitalisierung von Altfunden in die Studien einbezogen, um eine Gesamtinterpretation zu ermöglichen; ein Datierungsprogramm mittels Bayesian Modelling ist geplant.</p>"
+      },
+      "images": [
+        "images/projects/duensberg-oppidum-roman-presence/image-01.jpg"
+      ],
+      "partners": {
+        "en": "hessenArchäologie (State Conservation Office of Hesse); Prof. Dr. Astrid Stobbe (Univ. Frankfurt); Prof. Dr. Sabine Klein (Mining Museum Bochum).",
+        "de": "Landesamt für Denkmalpflege Hessen / hessenArchäologie; Prof. Dr. Astrid Stobbe (Univ. Frankfurt); Prof. Dr. Sabine Klein (Bergbaumuseum Bochum)."
+      },
+      "publications": {
+        "en": [
+          "S. Hornung, Centralization, marginalization and mobility – Late La Tène settlement and population dynamics in the Middle Rhine region. Fundberichte aus Hessen, Beihefte 14 (Heidelberg 2024) 43–70."
+        ],
+        "de": [
+          "S. Hornung, Centralization, marginalization and mobility – Late La Tène settlement and population dynamics in the Middle Rhine region. Fundberichte aus Hessen, Beihefte 14 (Heidelberg 2024) 43–70."
+        ]
+      }
+    },
+
+    {
+      "id": "hermeskeil-military-camp",
+      "title": {
+        "en": "The Late Republican Military Camp of Hermeskeil and its Environs",
+        "de": "Das spätrepublikanische Militärlager von Hermeskeil und sein Umfeld"
+      },
+      "team": [
+        {
+          "name": "Sabine Hornung",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/univ-prof-dr-sabine-hornung.html"
+        },
+        {
+          "name": "Arno Braun",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/arno-braun.html"
+        },
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        },
+        {
+          "name": "Emelie Hene",
+          "url": ""
+        }
+      ],
+      "summary": {
+        "en": "This landscape archaeology project investigates Caesar’s Gallic War for the first time from the perspective of the defeated. It applies a broad spectrum of digital methods, including geophysical survey, digital documentation of finds and features, and spatial analyses based on digital terrain models; evaluation combines qualitative and quantitative approaches as well as Bayesian modelling of radiocarbon (14C) data.",
+        "de": "Dieses landschaftsarchäologische Projekt untersucht Caesars Gallischen Krieg erstmals aus der Perspektive der Besiegten. Zum Einsatz kommt ein breites digitales Methodenspektrum, darunter geophysikalische Prospektionen, digitale Fund- und Befunddokumentation sowie raumbezogene Analysen auf Basis digitaler Geländemodelle; die Auswertung nutzt quantitative und qualitative Verfahren sowie Bayesian Modelling von 14C-Daten."
+      },
+      "methods": [
+        "DataAcquisition",
+        "SpatialDataAcquisition",
+        "GeophysicalSurvey",
+        "RemoteSensingAndAerialPhotogrammetry",
+        "3DDigitizationObject",
+        "ComputationalArchaeology",
+        "SpatialAnalysisGIS",
+        "ProximityAndDensityAnalysis",
+        "QuantitativeAnalysisAndStatistics",
+        "BayesianModelling",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories"
+      ],
+      "description": {
+        "en": "<p>Running since 2010 and funded by the German Research Foundation (DFG) for 2015–2026, the project investigates the Caesarian military camp of Hermeskeil (District of Trier-Saarburg) and its surroundings across ~600 hectares, examining the Gallic War and its consequences from the perspective of the indigenous population.</p><p>Magnetometry and ground-penetrating radar provide a detailed picture of Celtic–Roman settlement landscapes and enabled the discovery of numerous new sites (including Iron Age settlements and cemeteries) as well as the documentation of countless Roman farmsteads. The project identified a previously unknown type of Imperial-period settlement in the region, with implications for understanding ancient economy.</p><p>Systematic field walking and targeted excavations (with photogrammetric 3D feature documentation) support dating and interpretation; find locations were recorded with total-station-based single-find mapping. A LiDAR-based digital terrain model is integrated with field data in GIS to reconstruct contemporary route networks and broader settlement/transport infrastructure. Archaeometric provenance and material analyses (e.g. residue analyses on ceramics) complement the work; all datasets are consolidated in a project database enabling qualitative and quantitative evaluation, GIS-based interpretative analyses (settlement patterns, land use) and Bayesian modelling of radiocarbon dates.</p>",
+        "de": "<p>Das seit 2010 laufende und 2015–2026 von der DFG geförderte Projekt erforscht das caesarische Militärlager von Hermeskeil (Lkr. Trier-Saarburg) und sein Umfeld auf ca. 600 ha und untersucht den Gallischen Krieg und seine Folgen aus der Perspektive der einheimischen Bevölkerung.</p><p>Geophysikalische Prospektionen (Geomagnetik und Georadar) zeichnen ein präzises Bild der keltisch-römischen Siedlungslandschaft und ermöglichten die Lokalisierung zahlreicher neuer Fundstellen (u. a. eisenzeitliche Siedlungen und Gräberfelder) sowie die Analyse unzähliger römischer Gehöftsiedlungen. Dabei gelang die Entdeckung eines in der Region bislang unbekannten kaiserzeitlichen Siedlungstyps mit grundlegender Bedeutung für das Verständnis antiker Wirtschaftsweisen.</p><p>Zur Datierung und Einordnung dienen systematische Feldbegehungen und gezielte Ausgrabungen mit photogrammetrischer 3D-Befunddokumentation; Fundlagen wurden mittels tachymeterbasierter Einzelfundeinmessung präzise erfasst. Die Rekonstruktion des Wegenetzes erfolgt auf Basis eines LiDAR-DGM im GIS, verschnitten mit Geländedaten. Ergänzend kommen archäometrische Provenienz- und Inhaltsanalysen (z. B. an Keramik) zum Einsatz. Die Daten laufen in einer projekteigenen Datenbank zusammen und bilden die Grundlage für qualitative/quantitative Auswertungen, GIS-Analysen zu Siedlungsmustern/Landnutzung sowie Bayesian Modelling von 14C-Daten.</p>"
+      },
+      "images": [
+        "images/projects/hermeskeil-military-camp/image-01.jpg",
+        "images/projects/hermeskeil-military-camp/image-02.jpg"
+      ],
+      "partners": {
+        "en": "Generaldirektion Kulturelles Erbe Trier; Prof. Dr. Sabine Fiedler (Univ. Mainz); Prof. Dr. Astrid Stobbe (Univ. Frankfurt); Dr. Margarethe König (Univ. Mainz); Dr. Andreas Kronz (Univ. Göttingen); Dr. Debora Tretola Martinez (Univ. Bern); Dr. Markus Helfert (Univ. Frankfurt).",
+        "de": "Generaldirektion Kulturelles Erbe Trier; Prof. Dr. Sabine Fiedler (Univ. Mainz); Prof. Dr. Astrid Stobbe (Univ. Frankfurt); Dr. Margarethe König (Univ. Mainz); Dr. Andreas Kronz (Univ. Göttingen); Dr. Debora Tretola Martinez (Univ. Bern); Dr. Markus Helfert (Univ. Frankfurt)."
+      },
+      "publications": {
+        "en": [
+          "S. Hornung, Das spätrepublikanische Militärlager von Hermeskeil, Lkr. Trier-Saarburg. Studien zur frühen römischen Präsenz im Treverergebiet. Dossiers d’Archéologie XXI = Saarbrücker Beiträge zur Altertumskunde 91 (Bertrange 2024).",
+          "S. Hornung, From the eyes of the conquered – New perspectives on Titus Labienus’s conquest of the Treveri. AFEAF 7 (Paris 2025) 247–263.",
+          "S. Fiedler et al., Soil investigations to determine the function of different parts of the Late Republican Roman fortress near Hermeskeil. Archaeological and Anthropological Sciences 17/5, 2025, 113."
+        ],
+        "de": [
+          "S. Hornung, Das spätrepublikanische Militärlager von Hermeskeil, Lkr. Trier-Saarburg. Studien zur frühen römischen Präsenz im Treverergebiet. Dossiers d’Archéologie XXI = Saarbrücker Beiträge zur Altertumskunde 91 (Bertrange 2024).",
+          "S. Hornung, From the eyes of the conquered – New perspectives on Titus Labienus’s conquest of the Treveri. AFEAF 7 (Paris 2025) 247–263.",
+          "S. Fiedler et al., Soil investigations to determine the function of different parts of the Late Republican Roman fortress near Hermeskeil. Archaeological and Anthropological Sciences 17/5, 2025, 113."
+        ]
+      }
+    },
+
+    {
+      "id": "humans-and-environment-hunnenring",
+      "title": {
+        "en": "Humans and Environment – Landscape Archaeological Research in the Environs of the Oppidum “Hunnenring” near Otzenhausen",
+        "de": "Mensch und Umwelt – Landschaftsarchäologische Forschungen im Umfeld des Oppidums „Hunnenring“ von Otzenhausen"
+      },
+      "team": [
+        {
+          "name": "Sabine Hornung",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/univ-prof-dr-sabine-hornung.html"
+        },
+        {
+          "name": "Arno Braun",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/arno-braun.html"
+        },
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        }
+      ],
+      "summary": {
+        "en": "A long-term landscape archaeology project investigating a micro-region diachronically (Celtic period to World War II). It combines wide-area geophysics, remote sensing/LiDAR, photogrammetry, GIS-based spatial analyses (including predictive modelling and viewshed studies), and archaeometric investigations to study settlement dynamics, resource use, mobility, and socio-economic change.",
+        "de": "Langfristprojekt zur diachronen Erforschung einer Mikroregion (keltische Epoche bis Zweiter Weltkrieg). Es verbindet großflächige Geophysik, Fernerkundung/LiDAR, Photogrammetrie, GIS-gestützte Analysen (u. a. Predictive Modelling und Sichtfeldanalysen) sowie archäometrische Studien zur Untersuchung von Siedlungsdynamik, Ressourcennutzung, Mobilität und sozial-ökonomischem Wandel."
+      },
+      "methods": [
+        "DataAcquisition",
+        "SpatialDataAcquisition",
+        "GeophysicalSurvey",
+        "RemoteSensingAndAerialPhotogrammetry",
+        "3DDigitizationObject",
+        "ComputationalArchaeology",
+        "SpatialAnalysisGIS",
+        "VisibilityAndPathAnalysis",
+        "ProximityAndDensityAnalysis",
+        "PredictiveModelling",
+        "QuantitativeAnalysisAndStatistics",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories"
+      ],
+      "description": {
+        "en": "<p>Since 2006, the Late Celtic oppidum “Hunnenring” near Otzenhausen and its environs have been investigated within a long-term landscape archaeological program. For the first time, settlement history of a micro-region is studied diachronically, spanning from the Celtic period to the Second World War. Core themes include resource use and technologies, socio-economic change, mobility and migration, and the impact of repeated wars.</p><p>Digital field workflows emphasize total-station-based survey in excavations and field walking, photogrammetric documentation of features, and extensive geophysical prospection (magnetometry, geoelectrics/ERT, GPR), often used complementarily. All datasets are integrated in GIS, enabling modelling of settlement patterns through time, viewshed studies, predictive modelling, and quantitative analyses.</p><p>LiDAR-based terrain models allow systematic reconstruction of land use (e.g., charcoal production impacts), field systems and terraces, mining traces, and route infrastructures. Archaeometric analyses of recovered materials (metallurgy, glass, stone, botanical remains, ceramics) complement spatial modelling and interpretation.</p>",
+        "de": "<p>Seit 2006 stehen das spätkeltische Oppidum „Hunnenring“ von Otzenhausen und sein Umfeld im Fokus eines landschaftsarchäologischen Langfristprojektes. Erstmals wird die Besiedlungsgeschichte einer Mikroregion diachron untersucht – von der keltischen Epoche bis in die Zeit des Zweiten Weltkrieges. Themen sind u. a. Umwelt-/Ressourcennutzung und Technologien, sozialer und wirtschaftlicher Wandel, Mobilität und Migration sowie die Folgen mehrfacher Kriege.</p><p>Digital gestützte Arbeitsabläufe umfassen tachymeterbasierte Vermessungen bei Ausgrabungen und Feldbegehungen, photogrammetrische Befunddokumentation sowie großflächige geophysikalische Prospektionen (Geomagnetik, Geoelektrik/ERT, Georadar), teils komplementär eingesetzt. Die Daten werden im GIS zusammengeführt und bilden die Grundlage für Siedlungsmuster-Modelle im Wandel der Zeit, Sichtfeldanalysen, Predictive Modelling und quantitative Studien.</p><p>LiDAR-basierte DGM erlauben u. a. erstmals systematische Rückschlüsse auf historische Umweltnutzung (z. B. Köhlerei), Flursysteme und Ackerterrassen, Bergbauaktivitäten sowie Wegeinfrastrukturen. Komplementär kommen archäometrische Verfahren an Fundmaterial (Metallurgie, Glas, Stein, Botanik, Keramik etc.) zum Einsatz.</p>"
+      },
+      "images": [
+        "images/projects/humans-and-environment-hunnenring/image-01.jpg",
+        "images/projects/humans-and-environment-hunnenring/image-02.jpg"
+      ],
+      "partners": {
+        "en": "State Conservation Office of the Saarland; General Directorate for Cultural Heritage Rhineland-Palatinate; Municipality of Nonnweiler; City of Wadern; City of Hermeskeil; Dr. Andreas Kronz (Univ. Göttingen); Dr. Margarethe König (Univ. Mainz); Dr. Markus Helfert (Univ. Frankfurt).",
+        "de": "Landesamt für Denkmalpflege des Saarlandes; Generaldirektion Kulturelles Erbe Rheinland-Pfalz; Gemeinde Nonnweiler; Stadt Wadern; Stadt Hermeskeil; Dr. Andreas Kronz (Univ. Göttingen); Dr. Margarethe König (Univ. Mainz); Dr. Markus Helfert (Univ. Frankfurt)."
+      },
+      "publications": {
+        "en": [
+          "S. Hornung, Siedlung und Bevölkerung in Ostgallien zwischen Gallischem Krieg und der Festigung der römischen Herrschaft. Röm.-Germ. Forsch. 73 (Mainz/Darmstadt 2016).",
+          "S. Hornung (Hrsg.), Mensch und Umwelt I. Univ.forsch. Prähist. Arch. 192 (Bonn 2010).",
+          "S. Hornung / P. Brengel et al., Mensch und Umwelt II. Univ.forsch. Prähist. Arch. 289 (Bonn 2016)."
+        ],
+        "de": [
+          "S. Hornung, Siedlung und Bevölkerung in Ostgallien zwischen Gallischem Krieg und der Festigung der römischen Herrschaft. Röm.-Germ. Forsch. 73 (Mainz/Darmstadt 2016).",
+          "S. Hornung (Hrsg.), Mensch und Umwelt I. Univ.forsch. Prähist. Arch. 192 (Bonn 2010).",
+          "S. Hornung / P. Brengel et al., Mensch und Umwelt II. Univ.forsch. Prähist. Arch. 289 (Bonn 2016)."
+        ]
+      }
+    },
+
+    {
+      "id": "mortillet-estate-digital-indexing",
+      "title": {
+        "en": "The Mortillet Estate – Digital Indexing and Analysis of a Founding Archive of Prehistoric Archaeology",
+        "de": "Digitalisierung und digitale Erschließung der Sammlung Mortillet"
+      },
+      "team": [
+        {
+          "name": "Sabine Hornung",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/univ-prof-dr-sabine-hornung.html"
+        },
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        }
+      ],
+      "summary": {
+        "en": "A data-driven workflow to digitize and analyse the Mortillet estate (Gabriel and Adrien de Mortillet): preservation-oriented digitization with IIIF delivery, Human-in-the-loop HTR, TEI/XML modelling with authority linking, NER-based enrichment, and Network Analysis to reconstruct 19th-century scientific communication structures. The outcome is an interoperable research database with open interfaces (API) aligned with FAIR principles.",
+        "de": "Datengetriebener Workflow zur Digitalisierung und Analyse des Mortillet-Nachlasses (Gabriel und Adrien de Mortillet): bestandsschonende Digitalisierung mit IIIF-Bereitstellung, Human-in-the-loop-HTR, TEI/XML-Modellierung mit Normdatenverknüpfung, NER-basierte Anreicherung und Netzwerkanalyse zur Rekonstruktion wissenschaftlicher Kommunikationsstrukturen des 19. Jahrhunderts. Ergebnis ist eine interoperable Forschungsdatenbank mit offenen Schnittstellen (API) nach FAIR-Prinzipien."
+      },
+      "methods": [
+        "DataAcquisition",
+        "ImagingTechniques2D25D",
+        "ComputationalArchaeology",
+        "ArtificialIntelligenceAI",
+        "NetworkAnalysisSNA",
+        "DataManagementAndModelling",
+        "ResearchDataManagementRDM",
+        "DatabasesAndRepositories",
+        "DataModellingAndOntologies",
+        "VisualizationAndCommunication",
+        "DigitalCartographyAndWebGIS",
+        "ScienceCommunicationAndPublicOutreach"
+      ],
+      "description": {
+        "en": "<p>Saarland University acquired the Mortillet estate (Gabriel de Mortillet, 1821–1898; Adrien de Mortillet, 1853–1931) in the 1950s. The collection includes excavation notes, extensive correspondence, offprints, manuscripts, and rich visual material. For conservation reasons and to enable research, it is to be digitized and made publicly accessible.</p><p>The project implements a FAIR-aligned, data-driven workflow in three interlocking areas: (1) high-resolution digitization with IIIF delivery and Human-in-the-loop HTR; (2) TEI/XML-based semantic modelling enriched via NER and authority linking (GND/VIAF/Wikidata); (3) Network Analysis and visualization of scientific communication networks, enabling diachronic exploration of themes, clusters and key actors. The final outcome is an interoperable research database with open interfaces (API), serving as a pilot for comparable scholarly estates.</p>",
+        "de": "<p>In den 1950er Jahren erwarb das Institut für Vor- und Frühgeschichte der Universität des Saarlandes den Nachlass von Gabriel (1821–1898) und Adrien de Mortillet (1853–1931). Der Bestand umfasst Notizen, umfangreiche Korrespondenzen, Sonderdrucke, Manuskripte sowie Bildmaterial (Postkarten, Fotos) und zahlreiche Kurznotizen. Aus Erhaltungsgründen und zur besseren wissenschaftlichen Nutzbarkeit soll er zeitnah digitalisiert und öffentlich zugänglich gemacht werden.</p><p>Das Projekt setzt einen FAIR-orientierten, datengetriebenen Workflow in drei Bereichen um: (1) bestandsschonende Digitalisierung mit IIIF-Bereitstellung und Human-in-the-loop-HTR; (2) semantische Modellierung in TEI/XML mit NER-Anreicherung und Normdatenlinking (GND/VIAF/Wikidata); (3) Netzwerkanalyse und Visualisierung wissenschaftlicher Kommunikationsnetzwerke zur Rekonstruktion von Akteuren, Clustern und diachronen Themenentwicklungen. Ergebnis ist eine interoperable Forschungsdatenbank mit offenen Schnittstellen (API) als Pilot für ähnliche Nachlassprojekte.</p>"
+      },
+      "images": [
+        "images/projects/mortillet-estate-digital-indexing/image-01.jpg",
+        "images/projects/mortillet-estate-digital-indexing/image-02.jpg"
+      ],
+      "partners": {
+        "en": "Dr. Michael Hedderich (Munich); Dr. Philippe Roux.",
+        "de": "Dr. Michael Hedderich (München); Dr. Philippe Roux."
+      },
+      "publications": {
+        "en": [
+          "P. Roux, Les « archives Mortillet » à l’Université de Sarrebruck. Univ.-Forsch. Prähist. Arch. (Saarbrücken, im Druck).",
+          "G. Junghans, Gabriel de Mortillet (1821–1898) – Eine Biographie. Archäologische Berichte 1 (Bonn 1987)."
+        ],
+        "de": [
+          "P. Roux, Les « archives Mortillet » à l’Université de Sarrebruck. Univ.-Forsch. Prähist. Arch. (Saarbrücken, im Druck).",
+          "G. Junghans, Gabriel de Mortillet (1821–1898) – Eine Biographie. Archäologische Berichte 1 (Bonn 1987)."
+        ]
+      }
+    },
+
+    {
+      "id": "oberloestern-visualization-tourism",
+      "title": {
+        "en": "The Rural Settlement of the Region around Oberlöstern – Visualization and Touristic Development",
+        "de": "Die ländliche Besiedlung der Region um Oberlöstern – Visualisierung und touristische Erschließung"
+      },
+      "team": [
+        {
+          "name": "Sabine Hornung",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/univ-prof-dr-sabine-hornung.html"
+        },
+        {
+          "name": "Arno Braun",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/arno-braun.html"
+        }
+      ],
+      "summary": {
+        "en": "A project (2023–2025) linking research and public presentation: digital 3D reconstructions and an animated flyover bring a Roman settlement landscape around Oberlöstern back to life on site, as part of a decentralized museum concept developed from current landscape-archaeological research and GIS/LiDAR-based modelling.",
+        "de": "Projekt (2023–2025) zur Verzahnung von Forschung und Vermittlung: Digitale 3D-Rekonstruktionen und ein animierter Rundflug machen die römische Siedlungslandschaft um Oberlöstern im Gelände erfahrbar – als Teil einer dezentralen Museumskonzeption, basierend auf aktueller landschaftsarchäologischer Forschung und GIS-/LiDAR-gestützter Modellierung."
+      },
+      "methods": [
+        "DataAcquisition",
+        "SpatialDataAcquisition",
+        "RemoteSensingAndAerialPhotogrammetry",
+        "3DDigitizationObject",
+        "ComputationalArchaeology",
+        "SpatialAnalysisGIS",
+        "QuantitativeAnalysisAndStatistics",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories",
+        "VisualizationAndCommunication",
+        "3DReconstructionAndVisualization"
+      ],
+      "description": {
+        "en": "<p>Within the long-running “Humans and Environment” framework, landscape archaeological research around Oberlöstern has been conducted since 2010, focusing on a unique ensemble reflecting Celtic–Roman settlement and societal developments. A Ministry of Economics-funded cooperation project with the City of Wadern (2023–2025) aimed to make this Roman monument landscape tangible in the field through a decentralized museum concept.</p><p>Digital reconstructions were created for key monuments, including the largest Roman villa estate in the Hochwald region known to date, a nearby temple, and a necropolis with monumental tumuli and a pillar tomb. The pillar tomb was digitally reconstructed in a polychrome scheme derived from comparative evidence, alongside its scientific analysis.</p><p>An animated flyover across the reconstructed settlement landscape integrates LiDAR-based terrain modelling with project data on agrarian land use and natural environment, producing an evidence-based visual narrative of the ancient cultural landscape. The concept is designed for future expansion to additional monuments.</p>",
+        "de": "<p>Im Zuge des Projektes „Mensch und Umwelt“ werden seit 2010 landschaftsarchäologische Forschungen in der Region um Oberlöstern durchgeführt. Ein durch das Ministerium für Wirtschaft gefördertes Kooperationsprojekt mit der Stadt Wadern (2023–2025) hatte das Ziel, das römische Denkmälerensemble im Gelände erfahrbar zu machen – Forschung und touristische Inwertsetzung waren dabei eng verzahnt.</p><p>Es entstanden digitale Rekonstruktionen zentraler Denkmäler, darunter der bislang größte römische Gutshof (villa rustica) im Hochwald, ein nahegelegener Tempel sowie eine Nekropole mit repräsentativen Grabhügeln und einem Pfeilergrabmal. Letzteres wurde parallel zur wissenschaftlichen Bearbeitung in einer über Vergleiche hergeleiteten Farbfassung digital rekonstruiert.</p><p>Ein animierter Flug über die gesamte Siedlungslandschaft auf Basis des LiDAR-DGM integriert zudem Daten zur agrarischen Nutzung und zum Naturraum und erzeugt so ein aus aktueller Forschung abgeleitetes Lebensbild der antiken Kulturlandschaft. Künftig ist eine Erweiterung der dezentralen Museumskonzeption vorgesehen.</p>"
+      },
+      "images": [
+        "images/projects/oberloestern-visualization-tourism/image-01.jpg",
+        "images/projects/oberloestern-visualization-tourism/image-02.jpg"
+      ],
+      "partners": {
+        "en": "State Conservation Office of the Saarland; City of Wadern; Archimedix GmbH & Co KG.",
+        "de": "Landesamt für Denkmalpflege des Saarlandes; Stadt Wadern; Archimedix GmbH & Co KG."
+      },
+      "publications": {
+        "en": [
+          "S. Hornung / T. Lang / S. Schröer / A. Lang / A. Kronz, Mensch und Umwelt III. Univ.forsch. Prähist. Arch. 326 (Bonn 2019)."
+        ],
+        "de": [
+          "S. Hornung / T. Lang / S. Schröer / A. Lang / A. Kronz, Mensch und Umwelt III. Univ.forsch. Prähist. Arch. 326 (Bonn 2019)."
+        ]
+      }
+    },
+
+    {
+      "id": "squad-team-geophysical-survey",
+      "title": {
+        "en": "Squad Team Geophysical Survey",
+        "de": "Squad Team Geophysical Survey"
+      },
+      "team": [
+        {
+          "name": "Simon Matzerath",
+          "url": "https://www.saarland.de/lda/DE/organisation_der_denkmalpflege/landesdenkmalamt/mitarbeiter"
+        },
+        {
+          "name": "Steve Bödecker",
+          "url": "https://www.saarland.de/lda/DE/organisation_der_denkmalpflege/landesdenkmalamt/mitarbeiter"
+        },
+        {
+          "name": "Sebastian Fürst",
+          "url": "https://www.uni-saarland.de/lehrstuhl/hornung/personen/sebastian-fuerst.html"
+        }
+      ],
+      "summary": {
+        "en": "A long-term partnership between Saarland’s heritage service and Saarland University to leverage synergies in geophysical survey. Permanently embedded in teaching, it provides practice-oriented training from planning and measurement to interpretation using real-world case studies, and supports rapid transfer of results into heritage assessment and research.",
+        "de": "Langfristige Kooperation zwischen Landesdenkmalamt Saarland und der Universität des Saarlandes zur Nutzung von Synergien in der geophysikalischen Prospektion, um denkmalpflegerische Belange mit archäologischer Forschung und akademischer Lehre dauerhaft zu verbinden. Durch die dauerhafte Einbindung in die Lehre entsteht eine besonders praxisnahe Ausbildung: Studierende lernen Workflows von der Planung über die Messung bis zur Interpretation an realen Fallbeispielen."
+      },
+      "methods": [
+        "DataAcquisition",
+        "SpatialDataAcquisition",
+        "GeophysicalSurvey",
+        "RemoteSensingAndAerialPhotogrammetry",
+        "SpatialAnalysisGIS",
+        "DataManagementAndModelling",
+        "DatabasesAndRepositories"
+      ],
+      "description": {
+        "en": "<p>The Squad Team Geophysical Survey is a long-term cooperation between the Landesdenkmalamt Saarland (Department of Archaeological Heritage / Bodendenkmalpflege) and Saarland University’s Institute of Pre- and Protohistory. It is designed to unlock synergies in geophysical survey through joint planning, shared workflows and consistent, transparent data processing—so that results can move quickly from field measurement into heritage assessment and academic research.</p><p>Several survey and interpretation projects on Roman infrastructure and settlement history in western Saarland are planned for 2026 as a current focus within this ongoing collaboration. A core element is permanent integration into teaching: students work on real case studies, learn end-to-end workflows hands-on, and gain insight into the standards and decision-making of heritage practice.</p><p>Workflows combine GPS-based mapping with magnetometry and ground-penetrating radar. The datasets are integrated with remote-sensing data (e.g., LiDAR) in GIS and interpreted in context (literature and official site documentation); digital, GIS-based evaluation and archiving of survey results form a central pillar. A pilot study addresses small, often solitary buildings (tuguria) near Roman villa estates (villae rusticae), supporting both research and improved heritage qualification of subtle archaeological structures.</p>",
+        "de": "<p>Das Squad Team Geophysical Survey ist als langfristiger Schulterschluss zwischen dem Landesdenkmalamt Saarland (Sachgebiet Bodendenkmalpflege) und dem Institut für Vor- und Frühgeschichte der Universität des Saarlandes angelegt. Im Mittelpunkt steht die Nutzung von Synergien: gemeinsame Planung von Prospektionen, abgestimmte Workflows und eine einheitliche, nachvollziehbare Datenaufbereitung – damit Ergebnisse zügig von der Messung in die denkmalpflegerische Bewertung sowie in wissenschaftliche Fragestellungen übertragen werden.</p><p>Für 2026 sind mehrere Prospektions- und Auswertungsprojekte zur römischen Infrastruktur und Besiedlungsgeschichte im westlichen Saarland geplant – als aktuelle Schwerpunktsetzung innerhalb der dauerhaft angelegten Zusammenarbeit. Ein Kern des Ansatzes ist die kontinuierliche Einbindung in die Lehre: Studierende arbeiten an realen Fallbeispielen, lernen Workflows praxisnah kennen und gewinnen Einblick in Standards und Entscheidungslogiken der Denkmalpraxis.</p><p>Methodisch kommen GPS-basierte Vermessungen, Geomagnetik und Georadar zum Einsatz. Die Messdaten werden mit Fernerkundungsdaten (z. B. LiDAR) in GIS zusammengeführt und in fachliche Kontexte (Literatur, Ortsakten) eingebettet; die GIS-gestützte Auswertung und Archivierung der Prospektionsergebnisse ist dabei ein zentraler Baustein. Ein Pilotprojekt („Römische Villen und multilokale Wohnformen“) untersucht u. a. kleine, oft solitäre Gebäude (tuguria) im Umfeld römischer villae rusticae und trägt zur Denkmalqualifizierung dieser häufig unscheinbaren Strukturen bei.</p>"
+      },
+      "images": [
+        "images/projects/squad-team-geophysical-survey/image-01.jpg",
+        "images/projects/squad-team-geophysical-survey/image-02.jpg"
+      ],
+      "partners": {
+        "en": "Landesdenkmalamt Saarland; Saarland University (Institute of Pre- and Protohistory).",
+        "de": "Landesdenkmalamt Saarland; Universität des Saarlandes (Institut für Vor- und Frühgeschichte)."
+      },
+      "publications": {
+        "en": [],
+        "de": []
+      }
+    },
+
     {
       "id": "vom-gipsabguss-zur-punktwolke",
       "title": {
@@ -62,8 +494,8 @@
         "de": "Kurze Projektbeschreibung..."
       },
       "methods": [
-        "3D Digitization (Object)",
-        "3D Modelling & Reconstruction"
+        "3DDigitizationObject",
+        "3DReconstructionAndVisualization"
       ],
       "description": {
         "en": "<p>Full description...</p>",
