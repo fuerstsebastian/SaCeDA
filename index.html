@@ -1,73 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SaCeDA Network - Digital Archaeology Hub</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaCeDA - Saarland Center for Digital Archaeology</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- D3.js ist wichtig für das neue Netzwerk -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="header-content">
-      <div class="header-left">
-        <h1>SaCeDA</h1>
-        <p class="subtitle" data-i18n="subtitle">Saarland Center for Digital Archaeology</p>
-      </div>
-      <div class="header-right">
-        <button id="lang-toggle" class="lang-btn">
-          <span id="lang-text">DE</span>
-        </button>
-      </div>
-    </div>
-  </header>
 
-  <!-- Controls -->
-  <div id="controls">
-    <div class="controls-inner">
-      <span class="control-label" data-i18n="filterLabel">Show / Hide:</span>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Method" checked>
-        <span data-i18n="methods">Methods</span>
-      </label>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Project" checked>
-        <span data-i18n="projects">Projects</span>
-      </label>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Person" checked>
-        <span data-i18n="people">People</span>
-      </label>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Institution" checked>
-        <span data-i18n="institutions">Institutions</span>
-      </label>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Application Field" checked>
-        <span data-i18n="fields">Application Fields</span>
-      </label>
-      <label class="checkbox-label">
-        <input type="checkbox" data-role="Teaching" checked>
-        <span data-i18n="teaching">Teaching</span>
-      </label>
-    </div>
-    <div class="hint" data-i18n="hint">
-      💡 Click on blue method nodes to reveal subcategories
-    </div>
-  </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SaCeDA</div>
+            <ul class="nav-links">
+                <li><a href="#" data-page="home" class="active" data-i18n="nav_home">Home</a></li>
+                <li><a href="#" data-page="projects" data-i18n="nav_projects">Projekte</a></li>
+                <li><a href="#" data-page="people" data-i18n="nav_people">Team</a></li>
+                <li><a href="#" data-page="methods" data-i18n="nav_methods">Methoden</a></li>
+                <li><a href="#" data-page="teaching" data-i18n="nav_teaching">Lehre</a></li>
+                <li><a href="network-explorer.html" target="_blank" class="special-link">Explorer ↗</a></li>
+            </ul>
+            
+            <!-- Sprachumschalter -->
+            <button id="lang-toggle" class="lang-btn">EN</button>
+            
+            <!-- Mobile Menu Button (Optional, Layout-ready) -->
+            <button class="mobile-menu-btn" style="display:none;">☰</button>
+        </div>
+    </nav>
 
-  <!-- Network Canvas -->
-  <div id="network-container">
-    <svg id="network-svg"></svg>
-  </div>
+    <!-- Content Area -->
+    <main id="app-content">
+        <!-- Inhalte werden durch app.js generiert -->
+    </main>
 
-  <!-- Loading Indicator -->
-  <div id="loading">
-    <div class="loading-spinner"></div>
-    <p data-i18n="loading">Loading network...</p>
-  </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Saarland Center for Digital Archaeology</p>
+            <div class="logos">
+                <span data-i18n="footer_uni">Universität des Saarlandes</span> | 
+                <span data-i18n="footer_lda">Landesdenkmalamt Saarland</span>
+            </div>
+        </div>
+    </footer>
 
-  <script src="i18n.js"></script>
-  <script src="network.js"></script>
+    <!-- Skripte -->
+    <script src="app.js"></script>
+    <script src="methods-graph.js"></script>
 </body>
 </html>
